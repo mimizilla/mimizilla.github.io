@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<style>
+* {
+	border: solid 1px;
+}
+.main-a {
+}
+.head {
+	height: 100px;
+	width: 100%;
+}
+.main-b {	
+}
+@media only screen and (min-width: 1000px) {
+	.main-b {
+		display: flex;
+		flex-direction: row;
+	}
+}
+.navigation {
+	width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+	.navigation {
+		width: 25%;
+	}
+}
+.nav-item {
+	height: 25px;
+}
+.content {
+	width: 100%;
+}
+.content-item {
+	height: 100px;
+}
+.foot {
+	height: 50px;
+	width: 100%;
+}
+</style>
+</head>
+
+<body>
+	<div class="main-a">
+		<div class="head">
+			HEAD
+		</div>
+		
+		<div class="main-b">  
+			<div class="navigation"> 
+				<div class="nav-item">Nav-Item</div>
+				<div class="nav-item">Nav-Item</div>
+				<div class="nav-item">Nav-Item</div>
+				<div class="nav-item">Nav-Item</div>
+			</div>
+			
+			<div class="content"> 
+				<div class="content-item">Content</div>
+				<div class="content-item">Content</div>
+				<div class="content-item">Content</div>
+				<div class="content-item">Content</div>
+			</div>
+		</div>
+		
+		<div class="foot"> 
+			FOOT
+		</div>
+	</div>
+	
+</body>
+
+</html>
