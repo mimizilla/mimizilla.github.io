@@ -1,0 +1,81 @@
+/* Style for Kalender-GUI */
+
+* {
+	
+}
+
+.main-a {
+	min-width: 513px;
+}
+
+.head {
+	border: solid 1px;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	 vertical-align: middle;
+}
+
+.main-b {	
+	border: solid 1px;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+		@media only screen and (min-width: 1000px) {
+			.main-b {
+				flex-direction: row;
+				
+			}
+		}
+
+.navigation {
+	border: solid 1px;
+	width: 100%;
+}
+		@media only screen and (min-width: 1000px) {
+			.navigation {
+				width: 25%;
+			}
+		}
+
+.button-size {
+	width: 100%;
+	height: 100%;
+}
+		
+.nav-item {
+	border: solid 1px;
+	height: 25px;
+}
+
+.content {
+	border: solid 1px;
+	width: 100%;
+}
+
+.content-termine {
+	border: double 2px;
+}
+
+.content-item {
+	border: solid 1px;
+	display:flex;
+	height: auto;
+	width: auto;
+	flex-direction:column;
+}
+		@media only screen and (min-width: 1000px) {
+			.content-item {
+				width: 100%;
+				height: auto;
+				flex-direction: row;
+			}
+		}
+	
+
+.foot {
+	border: solid 1px;
+	height: 50px;
+	width: 100%;
+}

@@ -1,0 +1,31 @@
+/* ausgelagerter Kalender - Style */
+
+
+
+.kalender-table-border {
+   
+  }
+
+  .kalender-table-cell {
+   vertical-align: middle;
+   text-align: center;
+   padding: 10px;
+   border: 1px solid black;
+   width: 40px;
+  }
+  
+  .kalender-termin-gefunden {
+   border-width:0px;
+   background: lightgrey;
+  }
+   
+   .kalender-heutigerTag {
+   border-width: 5px;
+   border-style: solid;
+   background: yellow;
+  }
+
+   .kalender-index {
+	border-width:0px;
+	background: cyan;
+   }
