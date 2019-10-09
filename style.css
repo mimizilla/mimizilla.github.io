@@ -32,8 +32,9 @@
 			width: 93px;
 			float: left;
 			background-color: yellow;
-			margin: 20px;
+			margin-top: 20px;
 			margin-left: 0px;
+			margin-right: 0px;
 		}
 
 	#logo p {
@@ -91,24 +92,38 @@
 	/* C O N T E N T */
 	
 	#content {
-			padding-top: 20;
-			width: 95%;
-			margin: 0 auto;
-			margin-top: 10 px;
+			background: url(pictures/background_question.jpg);
+			background-size: cover;
+			height: 850px;
+			width: 100%;
 			text-align: center;
-			border: solid;
+			z-index:0;
+			border-top: dotted 5px black;
 		}
 		
+		@media only screen and (max-width: 700) {
+			height: 600px;
+		}
+		
+	#galerie {
+			height: 600px;
+			width:85%;
+			margin:0.1%;
+			text-align: center;
+			padding-left: 12%;
+			padding-right: 60;
+		}
 	
 	#foto-galerie {
 		float: left;
-		width: 120px;
-		height: 120px;
-		border: solid 1px black;
-		margin: 5;
-		background-color: darkgrey;
-				
+		width: 100px;
+		height: 20%;
+		margin: 1%;  			
+		background-color: rgba(166, 166, 166, 0.75);
+		z-index:10;
 		}
+	
+	
 		
 	#foto-galerie > p {
 	display: none;
@@ -117,7 +132,7 @@
 /* P I C T U R E S ON H O V E R */		
 	.a:hover {
 		background: url(pictures/apfel.jpg);
-		background-size:cover;
+		background-size: cover;
 	}
 	.b:hover {
 		background: url(pictures/baer.jpg);
@@ -221,5 +236,14 @@
 	}
 
 
+/* A N T W O R T F O R M U L A R */
 
+	#antwortformular {
+		width: 95%;
+		height: 200px;
+		float: left;
+		background-color: yellow;
+		margin-left: 0 auto;
+		padding: 20px;
+	}
 
