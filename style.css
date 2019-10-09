@@ -4,7 +4,6 @@
 			margin: 0;
 			padding: 0;
 			/* löscht standartränder um jedes objekt */
-			
 			font-family: Levenim MT;
 		}
 
@@ -12,17 +11,18 @@
 		width: 960px;
 		max-width: 90%;
 		margin: 0 auto;
+		min-width: 400px;
 		
 		}
 
 	/* N A V I G A T I O N */
 	
-	#navigation {
+	#head {
 			width: 100%;
 			height: 100px;			
 			z-index:10;
 			position: fixed;
-			background-color:rgba(250, 250, 250, 0.8); */ 
+			background-color:rgba(250, 250, 250, 0.8);
 			/* für transparente farbe; die ersten 3 Werte geben die Farbe an */
 			/* 0.8 -- gibt die "durchlässigkeit an" -- opacity */
 		}
@@ -33,6 +33,7 @@
 			float: left;
 			background-color: yellow;
 			margin: 20px;
+			margin-left: 0px;
 		}
 
 	#logo p {
@@ -73,7 +74,7 @@
 
 	#banner {
 			width: 100%;
-			height: 700px;
+			height: 750px;
 			z-index: 0;
 			/* z-index bestimmt die Rangordnung bei der Darstellung */
 			/* 0 - ganz im Hintergrunde, 0 < 1 < 2 < 3 < 4 < 5  */
@@ -90,11 +91,134 @@
 	/* C O N T E N T */
 	
 	#content {
-			width: 960px;
+			padding-top: 20;
+			width: 95%;
 			margin: 0 auto;
+			margin-top: 10 px;
+			text-align: center;
+			border: solid;
 		}
+		
+	
+	#foto-galerie {
+		float: left;
+		width: 120px;
+		height: 120px;
+		border: solid 1px black;
+		margin: 5;
+		background-color: darkgrey;
+				
+		}
+		
+	#foto-galerie > p {
+	display: none;
+	}
+	
+/* P I C T U R E S ON H O V E R */		
+	.a:hover {
+		background: url(pictures/apfel.jpg);
+		background-size:cover;
+	}
+	.b:hover {
+		background: url(pictures/baer.jpg);
+		background-size:cover;
+	}
+	.c:hover {
+		background: url(pictures/clown.jpg);
+		background-size:cover;
+	}
+	.d:hover {
+		background: url(pictures/dinkel.jpg);
+		background-size:cover;
+	}
+	.e:hover {
+		background: url(pictures/edward.jpg);
+		background-size:cover;
+	}
+	.f:hover {
+		background: url(pictures/freedom.jpg);
+		background-size:cover;
+	}
+	.g:hover {
+		background: url(pictures/gutelaune.jpg);
+		background-size:cover;
+	}
+	.h:hover {
+		background: url(pictures/hustentee.jpg);
+		background-size:cover;
+	}
+	.i:hover {
+		background: url(pictures/instagram.jpg);
+		background-size:cover;
+	}
+	.j:hover {
+		background: url(pictures/joschka.jpg);
+		background-size:cover;
+	}
+	.k:hover {
+		background: url(pictures/karpfen.jpg);
+		background-size:cover;
+	}
+	.l:hover {
+		background: url(pictures/liebe.jpg);
+		background-size:cover;
+	}
+	.m:hover {
+		background: url(pictures/moos.jpg);
+		background-size:cover;
+	}
+	.n:hover {
+		background: url(pictures/neukoelln.jpg);
+		background-size:cover;
+	}
+	.o:hover {
+		background: url(pictures/osterhase.jpg);
+		background-size:cover;
+	}
+	.p:hover {
+		background: url(pictures/piepmatz.jpg);
+		background-size:cover;
+	}
+	.q:hover {
+		background: url(pictures/quarkbaellchen.jpg);
+		background-size:cover;
+	}
+	.r:hover {
+		background: url(pictures/rauchwolke.jpg);
+		background-size:cover;
+	}
+	.s:hover {
+		background: url(pictures/supersymetrie.jpg);
+		background-size:cover;
+	}
+	.t:hover {
+		background: url(pictures/tomate.jpg);
+		background-size:cover;	}
 
-
+	.u:hover {
+		background: url(pictures/urgewalt.jpg);
+		background-size:cover;
+	}
+	.v:hover {
+		background: url(pictures/verona.jpg);
+		background-size:cover;
+	}
+	.w:hover {
+		background: url(pictures/wollknaeuel.jpg);
+		background-size:cover;
+	}
+	.x:hover {
+		background: url(pictures/xucker.jpg);
+		background-size:cover;
+	}
+	.y:hover {
+		background: url(pictures/yorkshire.jpg);
+		background-size:cover;
+	}
+	.z:hover {
+		background: url(pictures/zuse.jpg);
+		background-size:cover;
+	}
 
 
 
