@@ -1,0 +1,101 @@
+	/* A L L G E M E I N */
+
+	* 	{
+			margin: 0;
+			padding: 0;
+			/* löscht standartränder um jedes objekt */
+			
+			font-family: Levenim MT;
+		}
+
+	.wrapper {
+		width: 960px;
+		max-width: 90%;
+		margin: 0 auto;
+		
+		}
+
+	/* N A V I G A T I O N */
+	
+	#navigation {
+			width: 100%;
+			height: 100px;			
+			z-index:10;
+			position: fixed;
+			background-color:rgba(250, 250, 250, 0.8); */ 
+			/* für transparente farbe; die ersten 3 Werte geben die Farbe an */
+			/* 0.8 -- gibt die "durchlässigkeit an" -- opacity */
+		}
+
+	#logo {
+			height: 60px;
+			width: 93px;
+			float: left;
+			background-color: yellow;
+			margin: 20px;
+		}
+
+	#logo p {
+	/* im Objekt -Logo- möchte ich das ALLE <p></p> folgendes tun: */
+		font-family: Courier New;
+		font-size: 4em;
+		line-height: 0.95;
+		margin-left: 0px;
+		
+		color: darkgreen;	
+		
+		}
+
+	#menu {
+			float: right;
+			padding-top: 50px;
+
+		}
+		
+	#menu a {			
+			padding-top:35px;
+			padding-right: 15px;
+			text-decoration: none;
+			color: darkgreen;
+			/* entfernt alle Dekorationen, wie Unterstrichen,Fett,Kursiv */
+			font-weight: 475;
+		}
+		
+	#menu a:hover {
+	/* Für alle <a..> über die der cursor gehalten wird in #menu */
+			border-top: solid 5px;
+			border-color: darkred;
+			font-weight: 60;
+		}
+
+
+	/* B A N N E R */
+
+	#banner {
+			width: 100%;
+			height: 700px;
+			z-index: 0;
+			/* z-index bestimmt die Rangordnung bei der Darstellung */
+			/* 0 - ganz im Hintergrunde, 0 < 1 < 2 < 3 < 4 < 5  */
+			
+			background: url(pictures/banner.jpg);
+			background-size: cover;
+		}
+
+	#banner h1 {
+			float: right;
+		}
+	
+	
+	/* C O N T E N T */
+	
+	#content {
+			width: 960px;
+			margin: 0 auto;
+		}
+
+
+
+
+
+
