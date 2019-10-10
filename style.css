@@ -1,23 +1,22 @@
 	/* A L L G E M E I N */
 
-	* 	{
+		*	{
 			margin: 0;
 			padding: 0;
 			/* löscht standartränder um jedes objekt */
 			font-family: Levenim MT;
 		}
 
-	.wrapper {
-		width: 960px;
-		max-width: 90%;
-		margin: 0 auto;
-		min-width: 400px;
-		
+		.wrapper {
+			width: 960px;
+			max-width: 90%;
+			margin: 0 auto;
+			min-width: 400px;
 		}
 
 	/* N A V I G A T I O N */
 	
-	#head {
+		#head {
 			width: 100%;
 			height: 100px;			
 			z-index:10;
@@ -27,7 +26,7 @@
 			/* 0.8 -- gibt die "durchlässigkeit an" -- opacity */
 		}
 
-	#logo {
+		#logo {
 			height: 60px;
 			width: 93px;
 			float: left;
@@ -37,24 +36,22 @@
 			margin-right: 0px;
 		}
 
-	#logo p {
-	/* im Objekt -Logo- möchte ich das ALLE <p></p> folgendes tun: */
-		font-family: Courier New;
-		font-size: 4em;
-		line-height: 0.95;
-		margin-left: 0px;
-		
-		color: darkgreen;	
-		
+		#logo p {
+		/* im Objekt -Logo- möchte ich das ALLE <p></p> folgendes tun: */
+			font-family: Courier New;
+			font-size: 4em;
+			line-height: 0.95;
+			margin-left: 0px;
+			color: darkgreen;	
 		}
 
-	#menu {
+		#menu {
 			float: right;
 			padding-top: 50px;
 
 		}
 		
-	#menu a {			
+		#menu a {			
 			padding-top:35px;
 			padding-right: 15px;
 			text-decoration: none;
@@ -63,8 +60,8 @@
 			font-weight: 475;
 		}
 		
-	#menu a:hover {
-	/* Für alle <a..> über die der cursor gehalten wird in #menu */
+		#menu a:hover {
+		/* Für alle <a..> über die der cursor gehalten wird in #menu */
 			border-top: solid 5px;
 			border-color: darkred;
 			font-weight: 60;
@@ -73,7 +70,7 @@
 
 	/* B A N N E R */
 
-	#banner {
+		#banner {
 			width: 100%;
 			height: 750px;
 			z-index: 0;
@@ -84,14 +81,14 @@
 			background-size: cover;
 		}
 
-	#banner h1 {
+		#banner h1 {
 			float: right;
 		}
 	
 	
 	/* C O N T E N T */
 	
-	#content {
+		#content {
 			background: url(pictures/background_question.jpg);
 			background-size: cover;
 			height: 850px;
@@ -105,7 +102,7 @@
 			height: 600px;
 		}
 		
-	#galerie {
+		#galerie {
 			height: 600px;
 			width:85%;
 			margin:0.1%;
@@ -114,136 +111,136 @@
 			padding-right: 60;
 		}
 	
-	#foto-galerie {
-		float: left;
-		width: 100px;
-		height: 20%;
-		margin: 1%;  			
-		background-color: rgba(166, 166, 166, 0.75);
-		z-index:10;
+		.foto-galerie {
+			float: left;
+			width: 100px;
+			height: 20%;
+			margin: 1%;  			
+			background-color: rgba(166, 166, 166, 0.75);
+			z-index:10;
 		}
 	
 	
 		
-	#foto-galerie > p {
-	display: none;
-	}
+		#foto-galerie > p {
+			display: none;
+		}
 	
 /* P I C T U R E S ON H O V E R */		
-	.a:hover {
-		background: url(pictures/apfel.jpg);
-		background-size: cover;
-	}
-	.b:hover {
-		background: url(pictures/baer.jpg);
-		background-size:cover;
-	}
-	.c:hover {
-		background: url(pictures/clown.jpg);
-		background-size:cover;
-	}
-	.d:hover {
-		background: url(pictures/dinkel.jpg);
-		background-size:cover;
-	}
-	.e:hover {
-		background: url(pictures/edward.jpg);
-		background-size:cover;
-	}
-	.f:hover {
-		background: url(pictures/freedom.jpg);
-		background-size:cover;
-	}
-	.g:hover {
-		background: url(pictures/gutelaune.jpg);
-		background-size:cover;
-	}
-	.h:hover {
-		background: url(pictures/hustentee.jpg);
-		background-size:cover;
-	}
-	.i:hover {
-		background: url(pictures/instagram.jpg);
-		background-size:cover;
-	}
-	.j:hover {
-		background: url(pictures/joschka.jpg);
-		background-size:cover;
-	}
-	.k:hover {
-		background: url(pictures/karpfen.jpg);
-		background-size:cover;
-	}
-	.l:hover {
-		background: url(pictures/liebe.jpg);
-		background-size:cover;
-	}
-	.m:hover {
-		background: url(pictures/moos.jpg);
-		background-size:cover;
-	}
-	.n:hover {
-		background: url(pictures/neukoelln.jpg);
-		background-size:cover;
-	}
-	.o:hover {
-		background: url(pictures/osterhase.jpg);
-		background-size:cover;
-	}
-	.p:hover {
-		background: url(pictures/piepmatz.jpg);
-		background-size:cover;
-	}
-	.q:hover {
-		background: url(pictures/quarkbaellchen.jpg);
-		background-size:cover;
-	}
-	.r:hover {
-		background: url(pictures/rauchwolke.jpg);
-		background-size:cover;
-	}
-	.s:hover {
-		background: url(pictures/supersymetrie.jpg);
-		background-size:cover;
-	}
-	.t:hover {
-		background: url(pictures/tomate.jpg);
-		background-size:cover;	}
+		#a:hover {
+			background: url(pictures/apfel.jpg);
+			background-size: cover;
+		}
+		#b:hover {
+			background: url(pictures/baer.jpg);
+			background-size:cover;
+		}
+		#c:hover {
+			background: url(pictures/clown.jpg);
+			background-size:cover;
+		}
+		#d:hover {
+			background: url(pictures/dinkel.jpg);
+			background-size:cover;
+		}
+		#e:hover {
+			background: url(pictures/edward.jpg);
+			background-size:cover;
+		}
+		#f:hover {
+			background: url(pictures/freedom.jpg);
+			background-size:cover;
+		}
+		.g:hover {
+			background: url(pictures/gutelaune.jpg);
+			background-size:cover;
+		}
+		#h:hover {
+			background: url(pictures/hustentee.jpg);
+			background-size:cover;
+		}
+		#i:hover {
+			background: url(pictures/instagram.jpg);
+			background-size:cover;
+		}
+		#j:hover {
+			background: url(pictures/joschka.jpg);
+			background-size:cover;
+		}
+		#k:hover {
+			background: url(pictures/karpfen.jpg);
+			background-size:cover;
+		}
+		#l:hover {
+			background: url(pictures/liebe.jpg);
+			background-size:cover;
+		}
+		#m:hover {
+			background: url(pictures/moos.jpg);
+			background-size:cover;
+		}
+		#n:hover {
+			background: url(pictures/neukoelln.jpg);
+			background-size:cover;
+		}
+		#o:hover {
+			background: url(pictures/osterhase.jpg);
+			background-size:cover;
+		}
+		#p:hover {
+			background: url(pictures/piepmatz.jpg);
+			background-size:cover;
+		}
+		#q:hover {
+			background: url(pictures/quarkbaellchen.jpg);
+			background-size:cover;
+		}
+		#r:hover {
+			background: url(pictures/rauchwolke.jpg);
+			background-size:cover;
+		}
+		#s:hover {
+			background: url(pictures/supersymetrie.jpg);
+			background-size:cover;
+		}
+		#t:hover {
+			background: url(pictures/tomate.jpg);
+			background-size:cover;	}
 
-	.u:hover {
-		background: url(pictures/urgewalt.jpg);
-		background-size:cover;
-	}
-	.v:hover {
-		background: url(pictures/verona.jpg);
-		background-size:cover;
-	}
-	.w:hover {
-		background: url(pictures/wollknaeuel.jpg);
-		background-size:cover;
-	}
-	.x:hover {
-		background: url(pictures/xucker.jpg);
-		background-size:cover;
-	}
-	.y:hover {
-		background: url(pictures/yorkshire.jpg);
-		background-size:cover;
-	}
-	.z:hover {
-		background: url(pictures/zuse.jpg);
-		background-size:cover;
-	}
+		#u:hover {
+			background: url(pictures/urgewalt.jpg);
+			background-size:cover;
+		}
+		#v:hover {
+			background: url(pictures/verona.jpg);
+			background-size:cover;
+		}
+		#w:hover {
+			background: url(pictures/wollknaeuel.jpg);
+			background-size:cover;
+		}
+		#x:hover {
+			background: url(pictures/xucker.jpg);
+			background-size:cover;
+		}
+		#y:hover {
+			background: url(pictures/yorkshire.jpg);
+			background-size:cover;
+		}
+		#z:hover {
+			background: url(pictures/zuse.jpg);
+			background-size:cover;
+		}
 
 
 /* A N T W O R T F O R M U L A R */
 
-	#antwortformular {
-		width: 95%;
-		height: 200px;
-		float: left;
-		background-color: yellow;
-		margin-left: 0 auto;
-		padding: 20px;
-	}
+		#antwortformular {
+			width: 95%;
+			height: 200px;
+			float: left;
+			background-color: yellow;
+			margin-left: 0 auto;
+			padding: 20px;
+		}
 

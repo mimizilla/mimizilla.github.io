@@ -4,7 +4,13 @@
 	<title>My Website</title>
 	<Meta charset="utf-8">
 	<link rel="stylesheet" href="style.css" type="text/css">
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.js"></script>
 </head>
+
+
 
 <body>
 
@@ -47,32 +53,32 @@
 	
 	
 	<div id="galerie">	
-		<div id="foto-galerie" class="a"> a .... wie</div>
-		<div id="foto-galerie" class="b"> b .... wie</div>
-		<div id="foto-galerie" class="c"> c .... wie</div>
-		<div id="foto-galerie" class="d"> d .... wie</div>
-		<div id="foto-galerie" class="e"> e .... wie</div>
-		<div id="foto-galerie" class="f"> f .... wie</div>
-		<div id="foto-galerie" class="g"> g .... wie</div>
-		<div id="foto-galerie" class="h"> h .... wie</div>
-		<div id="foto-galerie" class="i"> i .... wie</div>
-		<div id="foto-galerie" class="j"> j .... wie</div>
-		<div id="foto-galerie" class="k"> k .... wie</div>
-		<div id="foto-galerie" class="l"> l .... wie</div>
-		<div id="foto-galerie" class="m"> m .... wie</div>
-		<div id="foto-galerie" class="n"> n .... wie</div>
-		<div id="foto-galerie" class="o"> o .... wie</div>
-		<div id="foto-galerie" class="p"> p .... wie</div>
-		<div id="foto-galerie" class="q"> q .... wie</div>
-		<div id="foto-galerie" class="r"> r .... wie</div>
-		<div id="foto-galerie" class="s"> s .... wie</div>
-		<div id="foto-galerie" class="t"> t .... wie</div>
-		<div id="foto-galerie" class="u"> u .... wie</div>
-		<div id="foto-galerie" class="v"> v .... wie</div>
-		<div id="foto-galerie" class="w"> w .... wie</div>
-		<div id="foto-galerie" class="x"> x .... wie</div>
-		<div id="foto-galerie" class="y"> y .... wie</div>
-		<div id="foto-galerie" class="z"> z .... wie</div>
+		<div class="foto-galerie" id="a"> a .... wie</div>
+		<div class="foto-galerie" id="b"> b .... wie</div>
+		<div class="foto-galerie" id="c"> c .... wie</div>
+		<div class="foto-galerie" id="d"> d .... wie</div>
+		<div class="foto-galerie" id="e"> e .... wie</div>
+		<div class="foto-galerie" id="f"> f .... wie</div>
+		<div class="foto-galerie" id="g"> g .... wie</div>
+		<div class="foto-galerie" id="h"> h .... wie</div>
+		<div class="foto-galerie" id="i"> i .... wie</div>
+		<div class="foto-galerie" id="j"> j .... wie</div>
+		<div class="foto-galerie" id="k"> k .... wie</div>
+		<div class="foto-galerie" id="l"> l .... wie</div>
+		<div class="foto-galerie" id="m"> m .... wie</div>
+		<div class="foto-galerie" id="n"> n .... wie</div>
+		<div class="foto-galerie" id="o"> o .... wie</div>
+		<div class="foto-galerie" id="p"> p .... wie</div>
+		<div class="foto-galerie" id="q"> q .... wie</div>
+		<div class="foto-galerie" id="r"> r .... wie</div>
+		<div class="foto-galerie" id="s"> s .... wie</div>
+		<div class="foto-galerie" id="t"> t .... wie</div>
+		<div class="foto-galerie" id="u"> u .... wie</div>
+		<div class="foto-galerie" id="v"> v .... wie</div>
+		<div class="foto-galerie" id="w"> w .... wie</div>
+		<div class="foto-galerie" id="x"> x .... wie</div>
+		<div class="foto-galerie" id="y"> y .... wie</div>
+		<div class="foto-galerie" id="z"> z .... wie</div>
 	</div>	
 </div>
 
@@ -88,7 +94,29 @@
 					-->
 
 
+<!-- JQUERY TEIL -->
 
+<script>
+
+$(document).ready(function() {
+var arr = ["apfel", "baer", "clown", "dinkel", "edward", "freedom", "gutelaune", "hustentee", "instagram", "joschka", "karpfen", "liebe", "moos", "neukoelln", "osterhase", "piepmatz", "quarkbaellchen", "rauchwolke", "supersymetrie", "tomate", "urgewalt", "verona", "wollknaeuel", "xucker", "yorkshire", "zuse" ];
+	
+	$(".foto-galerie").click(function() {
+		
+		var eingabe = prompt("What do you see in the Picture?");
+		
+		
+		$.each(arr, function(key, value) {
+			 if ( $.trim(eingabe) == value ) {
+				alert("Richtig das ist ein " +value);
+				return false;
+			};
+		});
+		
+	});
+});
+	
+</script>
 
 </body>
 
