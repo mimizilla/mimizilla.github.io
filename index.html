@@ -1,11 +1,9 @@
-
 <html>
 <head>
 	<title>My Website</title>
 	<Meta charset="utf-8">
 	<link rel="stylesheet" href="style.css" type="text/css">
-	
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="jquery.js"></script>
 </head>
@@ -14,85 +12,101 @@
 
 <body>
 
+<div id="main">
+
 <!-- N A V I G A T I O N -->
 
-<div id="head">
+	<div id="head">
 
-	<div class="wrapper">
-		
-		<div id="logo">	
-			<p><b>TL</b></p>
+		<div class="wrapper1">
+			
+			<!-- 1a - LOGO -->
+			<div id="logo"> <img src="pictures/1a-logo-freigestellt.jpg" alt="logo" class="logo"> </div>
+
+			<p id="menu">
+				<a href = "a"> suchen</a>
+				<a href = "b"> inserieren</a>
+				<a href = "c"> login</a>
+				<a href = "d"> impressum</a>
+			</p>
 		</div>
 
-		<p id="menu">
-			<a href = "a"> H O M E</a>
-			<a href = "b"> V i T A E</a>
-			<a href = "c"> C O N T A C T</a>
-			<a href = "d"> I M P R E S S U M</a>
-		</p>
-	
 	</div>
 
 
+	<!-- B A N N E R -->
+
+	<div id="banner">
+	
+		<div id="content">
+		
+		<!--	<span id="caption1">...... JOBSUCHE NACH .....</span> <br> -->
+			<br>
+			
+			<div class="wrapper2">
+				<div class="kategorie" id="Stadt"> Stadt</div>
+				<div class="kategorie" id="Beruf"> Beruf</div>
+				<div class="kategorie" id="Kategorie"> Kategorie</div>
+				<div class="kategorie" id="Beliebt"> Beliebt</div>
+				<div class="kategorie" id="Neueste"> Neueste</div>
+				<div class="kategorie" id="Aelteste"> Älteste</div>
+			</div>	
+			
+		</div>
+	</div>
 </div>
-
-
-<!-- B A N N E R -->
-
-<div id="banner">
-	<h1> <u>hasenkind enterprises</u> </h1>
-</div>
-
-<!-- M A I N -- B -->
-
-<div id="content">
-	
-	<br>
-	
-	<p>B I L D E R R A T E N</p>
 	
 	
-	<div id="galerie">	
-		<div class="foto-galerie" id="a"> a .... wie</div>
-		<div class="foto-galerie" id="b"> b .... wie</div>
-		<div class="foto-galerie" id="c"> c .... wie</div>
-		<div class="foto-galerie" id="d"> d .... wie</div>
-		<div class="foto-galerie" id="e"> e .... wie</div>
-		<div class="foto-galerie" id="f"> f .... wie</div>
-		<div class="foto-galerie" id="g"> g .... wie</div>
-		<div class="foto-galerie" id="h"> h .... wie</div>
-		<div class="foto-galerie" id="i"> i .... wie</div>
-		<div class="foto-galerie" id="j"> j .... wie</div>
-		<div class="foto-galerie" id="k"> k .... wie</div>
-		<div class="foto-galerie" id="l"> l .... wie</div>
-		<div class="foto-galerie" id="m"> m .... wie</div>
-		<div class="foto-galerie" id="n"> n .... wie</div>
-		<div class="foto-galerie" id="o"> o .... wie</div>
-		<div class="foto-galerie" id="p"> p .... wie</div>
-		<div class="foto-galerie" id="q"> q .... wie</div>
-		<div class="foto-galerie" id="r"> r .... wie</div>
-		<div class="foto-galerie" id="s"> s .... wie</div>
-		<div class="foto-galerie" id="t"> t .... wie</div>
-		<div class="foto-galerie" id="u"> u .... wie</div>
-		<div class="foto-galerie" id="v"> v .... wie</div>
-		<div class="foto-galerie" id="w"> w .... wie</div>
-		<div class="foto-galerie" id="x"> x .... wie</div>
-		<div class="foto-galerie" id="y"> y .... wie</div>
-		<div class="foto-galerie" id="z"> z .... wie</div>
-	</div>	
-</div>
+	<!-- Z W I S C H E N L E I S T E -->
+	<div class="zwischenleiste"> <a href="test.html">Berufs-Check</a> </div>
+	<div class="zwischenleiste"> <a href="perfektebewerbung.html">Die perfekte Bewerbung</a> </div>
+	<div class="zwischenleiste"> <a href="berufelexikon.html">Berufelexikon</a> </div>
+
+	
+	<!-- M A I N -- B -->
+	<div id="main-b">
+		
+		<div class="wrapper-main">
+			
+			<div class="suchagent-container">
+				
+				<div class="suchagent">
+					
+					<div id="dialog" title="Dialog Form">
+						<form action="" method="post">
+							<label><b>Berufsbezeichnung:</b></label>
+							<input id="beruf-suche" name="beruf" type="text">
+							<label><b>Stadt:</b></label>
+							<input id="stadt-suche" name="stadt" type="text">
+							<input id="submit" type="submit" value="Submit">
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
 <!-- JQUERY TEIL -->
 
 <script>
 
 $(document).ready(function() {
-var arr = ["apfel", "baer", "clown", "dinkel", "edward", "freedom", "gutelaune", "hustentee", "instagram", "joschka", "karpfen", "liebe", "moos", "neukoelln", "osterhase", "piepmatz", "quarkbaellchen", "rauchwolke", "supersymetrie", "tomate", "urgewalt", "verona", "wollknaeuel", "xucker", "yorkshire", "zuse" ];
+var arr = ["it", "sozial", "behoerden", "dinkel", "edward", "freedom", "gutelaune", "hustentee", "instagram", "joschka", "karpfen", "liebe", "moos", "neukoelln", "osterhase", "piepmatz", "quarkbaellchen", "rauchwolke", "supersymetrie", "tomate", "urgewalt", "verona", "wollknaeuel", "xucker", "yorkshire", "zuse" ];
 	
-	$(".foto-galerie").click(function() {
+	$(".kategorie").click(function() {
 		
-		var eingabe = prompt("What do you see in the Picture?");
+		var eingabe = prompt("Bitte geben Sie den gewünschten Suchbegriff für die gewählte Kategorie ein:");
 		
 		
 		$.each(arr, function(key, value) {
