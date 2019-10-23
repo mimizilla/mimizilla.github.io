@@ -172,6 +172,12 @@
 		height: 100px;
 	}
 	
+	.wrapper-news {
+		width: 21%;
+		height: 97%;
+		float: right;
+	}
+	
 /* H A U P T I N H A L T */
 
 		.main-b {
@@ -207,7 +213,7 @@
 		.link-stelle {
 			margin:10px 0px 10px 0px;
 			height:30px;
-			width: 80%;
+			width: 85%;
 			float: left;
 			padding: 5px;
 			border-bottom: solid 0.5px black;
@@ -216,62 +222,52 @@
 		
 		.wrapper-link-stelle {
 			margin: 0 auto;
-			width: 80%;
+			width: 85%;
 			max-width: 400px;
 		}
 		
-	/*          F I R M A           */
-	
-		.firma-wrapper {
-			height: 98%;
-			width: 98%;
-			padding: 1%;
-			padding-left: 0px;
-			margin: 0 auto;
-		}
+/* TABELLEN ANSICHT FORMATIERUNG */
 		
-		.firma {
-			float: left;
-			width: 24.5%;
-			height: 50%;
-			background-color: rgba(204,204,191,0.81);
-			border: solid 1px black;
-		}
-		
-		/* nur für die tabellenansicht auf: tabellenansicht.html*/
 		.wrapper-link-tabelle {
-			height: 98%;
+			height: auto;
 			width: 98%;
 			padding: 1%;
 			padding-left: 0px;
 			margin: 0 auto;
+			float: left;
+			border-bottom: solid 1px black;
 		}
 		.link-tabelle {
-			float: left;
-			width: 100%;
-			height: 50%;
+			float: right;
+			width: 75%;
+			height: auto;
 			background-color: rgba(204,204,191,0.81);
-			border: solid 1px black;
 		}
 		
-	/*       N E W S         */
+		.info-stelle {
+			text-align: center;
+			width:75%;
+			float: right;
 	
-		.news-wrapper {
-			height: 98%;
-			width: 98%;
-			padding: 1%;
-			padding-left: 0px;
-			margin: 0 auto;
-		}
-
-		.news {
-			float: left;
-			width: 48.5%;
-			height: 99%;
-			background-color: rgba(204,204,191,0.81);
-			border: solid 1px black;
 		}
 		
+		.info-stelle p {
+			overflow: hidden;
+			background-color: rgba(204,204,191,0.81);
+		}
+		
+		.logo-tabelle {
+			width: 100px;
+			height:100px;
+			border: solid 2px black;
+			float: left;
+			margin: 2px;
+		}
+		
+		.mehr-lesen {
+			float: left;
+		}
+			
 	/*      S U C H A G E N T    */	
 			
 		/* E I N G A B E   T E X T F E L D E R   S T Y L E */
@@ -343,13 +339,7 @@
 			border: solid 1px cyan;
 
 		}
-		
-		.wrapper-news {
-			width: 21%;
-			height: 97%;
-			float: right;
-		}
-		
+	
 		/* A L L G E M E I N E S */
 		
 		.allgemeines {
@@ -402,7 +392,7 @@
 				}
 				
 				.main-content {
-					width: 49%;
+					width: 99%;
 				}
 				
 				.content {
@@ -427,5 +417,37 @@
 					width: 99%;
 				}
 
+						.link-tabelle {
+			float: right;
+			width: 85%;
+			height: auto;
+			background-color: rgba(204,204,191,0.81);
+		}
+		
+		.info-stelle {
+			text-align: center;
+			width:85%;
+			float: right;
+	
+		}
+		
+		.info-stelle p {
+			overflow: hidden;
+			background-color: rgba(204,204,191,0.81);
+		}
+		
+		.logo-tabelle {
+			width: 100px;
+			height:100px;
+			border: solid 2px black;
+			float: left;
+			margin: 2px;
+		}
+		
+		.mehr-lesen {
+			float: right;
+		}
+				
+				
 				
 			}
