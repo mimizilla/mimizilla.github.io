@@ -1,2 +1,0 @@
-# mimizilla.github.io
-test
